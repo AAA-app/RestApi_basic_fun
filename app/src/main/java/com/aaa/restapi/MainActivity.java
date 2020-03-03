@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         String URL = "https://dog.ceo/api/breed/hound/list";
         RequestQueue requestQueue = Volley.newRequestQueue(this);
-        
+
         JsonObjectRequest objectRequest = new JsonObjectRequest(
                 Request.Method.GET,
                 URL,
